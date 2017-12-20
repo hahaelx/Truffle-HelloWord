@@ -4,6 +4,7 @@
 
 安裝truffle開發環境，建置智能合約部署。
 並且實作傳送Ether function。
+
 ###環境版本
 * node v8.9.3
 * npm 5.6.0
@@ -13,7 +14,6 @@
 * testrpc: 區塊鏈模擬環境。
 
 ### 安裝開發環境
-
 安裝testrpc, truffle
 
 ```
@@ -60,6 +60,7 @@ HD Wallet
 Mnemonic:      surge tide buddy double film weekend dice true sort skull cave submit
 Base HD Path:  m/44'/60'/0'/0/{account_index}
 ```
+
 ### 建置HelloWord專案
 
 使用`` truffle init`` 建置HelloWord專案
@@ -194,8 +195,8 @@ Saving successful migration to network...
   ... 0x2ba19a67764275294ee8592eab4e1e45d9e11884552fbbb5399576112c6ed273
 Saving artifacts...
 ```
-### 與合約互動
 
+### 與合約互動
 開啟 truffle console
 
 ```
@@ -221,6 +222,7 @@ truffle(development)> HelloWord.deployed().then(function(deployed) {myContract =
 truffle(development)> myContract.GetMessage.call()
 
 ```
+
 ### 執行合約function，傳送Ether給合約所有者
 傳送單位為wei,<br>
 單位轉換可參考：[etherconverter](https://etherconverter.online/)<br>
