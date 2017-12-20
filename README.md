@@ -81,6 +81,7 @@ $ truffle init
 truffle.js 配置設定
 
 ###設定編譯環境
+
 testrpc 預設port=8545,為了讓truffle連接到測試環境，需要設定：<br>
 打開``truffle.js``
 新增下段程式
