@@ -77,7 +77,7 @@ $ truffle init
 /contracts 智能合约 <br>
 /migrations 智能合约部署 <br>
 /test 测试 <br>
-truffle.js 配置設定<br>
+truffle.js 配置設定
 
 ###設定編譯環境
 testrpc 預設port=8545,為了讓truffle連接到測試環境，需要設定：<br>
